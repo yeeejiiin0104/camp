@@ -9,23 +9,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    display: flex;
-    flex-direction: row;
 }
-.w1{
-    flex: 4 0 auto;
+h2 {
+    margin-bottom: 20px;
 }
-.w2{
-    flex: 6 0 auto;
-}
-
 table {
     border-collapse: collapse;
     width: 80%;
     max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border:1px solid black;margin-left:auto;margin-right:auto;
 }
 th, td {
     border: 1px solid #ddd;
@@ -54,9 +47,6 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-#saveButton{
-    margin : auto;
 }
 button:hover {
     background-color: #ff7b00;
