@@ -1,72 +1,73 @@
-html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
+@font-face {
+    font-family: 'HSSanTokki';
+    src: url('fonts/HSSanTokki2.0(2024).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-    background: radial-gradient(circle at top left, #f36a38, transparent 70%), 
-    radial-gradient(circle at bottom right, #f36a38, transparent 70%);
-    
+    font-family: 'HSSanTokki', sans-serif;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: radial-gradient(circle at top left, #EF833a, transparent 70%), 
+                radial-gradient(circle at bottom right, #f3a252, transparent 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 100%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 45px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
 }
-
 #container {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.097);
-    border-radius: 45px;
     width: 100%;
-    height: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
 }
-
-#left {
-    flex:1;
+#left, #right {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-#right {
-    flex:1;
-    display: flex;
-    flex-direction: column;
-}
-
 #title {
+    color: #ffffff;
     font-size: 70px;
-    font-weight: 600;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 #t-login {
+    margin-top: 5%;
     font-size: 40px;
     font-weight: 600;
+    color: #ffffff;
 }
-
 #top {
-    flex:2;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top:9%;
 }
-
-#pic {
-    flex:3;
+#pic img {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .kakao-login-button {
     margin-top: 5%;
     display: inline-flex;
@@ -74,7 +75,7 @@ main {
     justify-content: center;
     width: 250px;
     height: 45px;
-    background-color: #FEE500;
+    background-color: #fee500;
     border: none;
     border-radius: 100px;
     font-family: 'Noto Sans', sans-serif;
@@ -82,15 +83,15 @@ main {
     font-weight: 600;
     color: #3C1E1E;
     text-decoration: none;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
-
 .kakao-login-button:hover {
     background-color: #E5C700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
 .kakao-login-button img {
     margin-right: 8px;
 }
