@@ -16,6 +16,7 @@ a {
     display: flex;
 }
 
+
 #menu {
     border-right: 1px solid #dbdbdb;
     padding: 12px;
@@ -26,6 +27,22 @@ a {
     position: fixed;
     height: 100%;
 }
+#total-screen {
+    display: flex;
+    flex-direction: row;
+}
+
+#bozo-screen {
+    flex: 1.4; 
+    background-color: white;
+}
+
+#screen {
+    flex: 4.5; 
+    display: flex;
+    flex-direction: column;
+}
+
 
 #logo {
     font-size: 30px;
@@ -47,7 +64,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 20px;
+    margin-left: 10px;
     flex: 0.8;
 }
 #profile-picture {
