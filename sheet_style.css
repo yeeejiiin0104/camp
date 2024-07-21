@@ -1,0 +1,25 @@
+#screen * {
+    box-sizing: border-box;
+    margin : 10px;
+    padding : 10px;
+}
+
+#container {
+    width : 1000px;
+    height : 400px;
+    display: flex;
+    flex-direction: row;
+    border : 1px solid #dbdbdb;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.child {
+    flex: 2 0;
+    border : 2px none rgb(0, 0, 0);
+}
+
+#picture{
+    background-color: #dbdbdb !important;
+}
