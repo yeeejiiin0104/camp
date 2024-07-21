@@ -31,6 +31,7 @@
         <div class="tag">#재수</div>
         <div class="tag">#연극</div>
     </div>
+    <button id="saveButton">저장하기</button>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const tags = document.querySelectorAll('.tag');
@@ -47,8 +48,11 @@
                     }
                 });
             });
+
+            document.getElementById('saveButton').addEventListener('click', function() {
+                window.location.href = 'main.html';
+            });
         });
     </script>
-    <button >저장하기</button>
 
 </body>
