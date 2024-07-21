@@ -49,11 +49,7 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-<<<<<<< HEAD
     background-color: #ffa200;
-=======
-    background-color: #FF6F00;
->>>>>>> 3a8dfa83c75e71cabafed61ce13c0f3f4177700b
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -63,11 +59,7 @@ button {
     margin : auto;
 }
 button:hover {
-<<<<<<< HEAD
     background-color: #ff7b00;
-=======
-    background-color: #FF6F00;
->>>>>>> 3a8dfa83c75e71cabafed61ce13c0f3f4177700b
 }
 @media (max-width: 600px) {
     table {
