@@ -38,6 +38,7 @@ th::selection, td::selection {
 .selected {
     background-color: #ffa200; /* 색상 변경 */
 }
+
 button {
     margin-top: 20px;
     padding: 10px 20px;
