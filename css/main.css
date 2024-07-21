@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'NanumBarunGothicYetHangul';
 }
 
 a {
@@ -104,3 +104,8 @@ a {
     flex-direction: column;
 }
 
+#profile-picture{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
