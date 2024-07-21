@@ -9,17 +9,19 @@
     height : 400px;
     display: flex;
     flex-direction: row;
-    border : 1px solid #dbdbdb;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 250px;
+    margin: auto;
+    
 }
 
 .child {
     flex: 2 0;
-    border : 2px none rgb(0, 0, 0);
 }
-
-#picture{
-    background-color: #dbdbdb !important;
+.profile1{
+    border : 2px solid rgb(0, 0, 0);
+}
+.profile2{
+    border : 2px solid rgb(0, 0, 0);
+}
+.profile3{
+    border : 2px solid rgb(0, 0, 0);
 }
