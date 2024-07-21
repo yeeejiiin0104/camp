@@ -9,16 +9,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: row;
 }
-h2 {
-    margin-bottom: 20px;
+.w1{
+    flex: 4 0 auto;
 }
+.w2{
+    flex: 6 0 auto;
+}
+
 table {
     border-collapse: collapse;
     width: 80%;
     max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:1px solid black;margin-left:auto;margin-right:auto;
 }
 th, td {
     border: 1px solid #ddd;
@@ -42,14 +49,17 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #FF6F00;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+#saveButton{
+    margin : auto;
+}
 button:hover {
-    background-color: #0056b3;
+    background-color: #FF6F00;
 }
 @media (max-width: 600px) {
     table {
