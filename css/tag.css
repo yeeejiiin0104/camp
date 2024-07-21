@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SOYO Maple';
+    src: url('fonts/SOYO Maple Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'SOYO Maple', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tags{
+    display: flex;
+    width: 700px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.tag:hover {
+    transform: scale(1.05);
+    border: none;
+    background-color: #FF6F00;
+    color: white;
+}
+.tag.selected {
+    background-color: #FF6F00;
+    color: white;
+    border: none;
+}
+.tag{
+    font-size: 20px;
+    border:2px solid #dbdbdb;
+    border-radius: 30%;
+    padding: 15px;
+}
+button {
+    width: 104px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffa200;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7b00;
+}
