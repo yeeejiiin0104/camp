@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'NanumBarunGothicYetHangul';
 }
 
 a {
@@ -80,6 +80,7 @@ a {
 #screen {
     margin: auto;
     margin-right: 80px;
+    margin-top: 100px;
 }
 #screen * {
     box-sizing: border-box;
@@ -104,3 +105,8 @@ a {
     flex-direction: column;
 }
 
+#profile-picture{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
