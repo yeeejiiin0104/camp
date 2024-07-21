@@ -50,6 +50,10 @@ a {
     margin-bottom: 20px;
     flex: 0.8;
 }
+#profile-picture {
+    outline: 1px;
+    border-radius: 30px;
+}
 
 #list a, #plus a {
     display: flex;
