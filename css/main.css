@@ -47,7 +47,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 20px;
+    margin-left: 10px;
     flex: 0.8;
 }
 #profile-picture {
