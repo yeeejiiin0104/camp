@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'HSSanTokki';
+    src: url('fonts/HSSanTokki2.0(2024).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'SOYO Maple';
     src: url('fonts/SOYO Maple Regular.ttf') format('truetype');
     font-weight: normal;
@@ -103,8 +110,6 @@ a {
 #screen {
     margin: auto;
     margin-right: 80px;
-    margin-top: 100px;
-    
 }
 #screen * {
     box-sizing: border-box;

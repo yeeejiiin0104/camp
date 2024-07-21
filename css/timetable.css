@@ -68,8 +68,18 @@ button:hover {
     background-color: #ff7b00;
 }
 
+#leftako {
+    width: 585.75px;
+    height: 429.75px;
+    top:45%;
+    left: -25px;
+    position: fixed;
+    z-index: 2;
+}
+
 @media (max-width: 600px) {
     table {
         width: 100%;
     }
 }
+
