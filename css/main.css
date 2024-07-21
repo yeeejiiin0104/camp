@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'NanumBarunGothicYetHangul';
+    background-color: #f9f9f9;
 }
 
 a {
@@ -50,6 +51,7 @@ a {
     margin-top: 20px;
     padding: 0px 15px;
     font-family: 'Dancing Script', cursive;
+    color: #FF6F00;
     flex: 0.6;
 }
 
@@ -86,12 +88,14 @@ a {
 }
 
 #list a:hover, #plus a:hover {
-    background-color: #f1f1f1;
+    background-color: #FF6F00;
+    color: white;
     transform: scale(1.05);
 }
 
 .active {
     font-weight: bold;
+    color: #FF6F00;
 }
 
 #screen {
@@ -122,10 +126,38 @@ a {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.recomend:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 #profile-picture{
     display: flex;
     flex-direction: row;
     align-items:center;
     gap: 0px 10px;
+}
+.profile-picture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+input[type="button"] {
+    background-color: #FF6F00;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.1s;
+}
+
+input[type="button"]:hover {
+    background-color: #E65100;
+    transform: scale(1.05);
 }
