@@ -31,6 +31,7 @@ a {
 
 #menu {
     border-right: 1px solid #dbdbdb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 12px;
     background-color: white;
     width: 250px;
@@ -69,6 +70,10 @@ a {
     flex-direction: column;
     gap: 15px;
     flex: 3.5;
+}
+
+#shap-picture{
+    padding-left: 5px;
 }
 
 #plus {
@@ -168,3 +173,10 @@ input[type="button"]:hover {
     background-color: #FF6F00;
     transform: scale(1.05);
 }
+
+#regionSelect1 {
+    border-radius: 10px;
+    border : 2px solid #dbdbdb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
