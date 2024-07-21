@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-
-
+@font-face {
+    font-family: 'SOYO Maple';
+    src: url('fonts/SOYO Maple Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
-    font-family: 'NanumBarunGothicYetHangul';
+    font-family: 'SOYO Maple', sans-serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 20px;
@@ -10,33 +13,44 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 h2 {
+    color: black;
     margin-bottom: 20px;
 }
+
 table {
     border-collapse: collapse;
     width: 80%;
     max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
+
 th, td {
     border: 1px solid #ddd;
     text-align: center;
     padding: 12px;
     cursor: pointer;
 }
+
 th {
-    background-color: #f2f2f2;
+    background-color: #ffa200;
+    color: white;
     font-weight: bold;
 }
 
 th::selection, td::selection {
-    color: rgb(0, 0, 0);
-    background-color: rgba(128, 0, 128, 0);
+    color: #000;
+    background-color: transparent;
 }
+
 .selected {
-    background-color: #ffa200; /* 색상 변경 */
+    background-color: #ffa20091;
+    color: #fff;
 }
 
 button {
@@ -49,9 +63,11 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #ff7b00;
 }
+
 @media (max-width: 600px) {
     table {
         width: 100%;
