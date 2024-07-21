@@ -42,14 +42,14 @@ button {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #FF6F00;
+    background-color: #ffa200;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 button:hover {
-    background-color: #FF6F00;
+    background-color: #ff7b00;
 }
 @media (max-width: 600px) {
     table {
