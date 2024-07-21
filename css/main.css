@@ -147,16 +147,16 @@ a {
 }
 
 input[type="button"] {
-    background-color: #FF6F00;
+    background-color: #ff6f00b8;
     border: none;
     color: white;
-    padding: 10px;
+    padding: 10%;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.1s, transform 0.1s;
 }
 
 input[type="button"]:hover {
-    background-color: #E65100;
+    background-color: #FF6F00;
     transform: scale(1.05);
 }
