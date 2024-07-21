@@ -81,6 +81,7 @@ a {
     margin: auto;
     margin-right: 80px;
     margin-top: 100px;
+    
 }
 #screen * {
     box-sizing: border-box;
@@ -94,19 +95,20 @@ a {
     display: flex;
     flex-direction: row;
     margin: auto;
-    justify-content: space-evenly; 
+    justify-content: space-between; 
 }
 
 .recomend {
-    flex: 1 0 auto;
+    justify-content: space-evenly; 
     border : 2px solid #dbdbdb;
+    width: 350px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
 }
-
 #profile-picture{
     display: flex;
     flex-direction: row;
     align-items:center;
+    gap: 0px 10px;
 }
